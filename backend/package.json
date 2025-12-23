@@ -1,0 +1,20 @@
+{
+  "name": "shortlink-backend",
+  "version": "1.0.0",
+  "description": "Backend for Shortlink application",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Sandesh Karad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
